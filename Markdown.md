@@ -136,7 +136,7 @@ Internal Reference
 
 External reference
 
-`![water](https://images.app.goo.gl/BxuL1cvQWsrGgeNC6)` = ![water](https://images.app.goo.gl/BxuL1cvQWsrGgeNC6)
+`![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` = ![water][(https://images.app.goo.gl/BxuL1cvQWsrGgeNC6](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
 
 Internal Reference
 
