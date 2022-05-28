@@ -1,1 +1,16 @@
-html
+body{
+    color: rgb(98, 0, 255);
+    background-color: rgb(185, 198, 194);
+    text-align:center;
+    text-size-adjust: 12;
+    text-decoration-line: underline;
+    text-emphasis-color: rgb(12, 181, 12);
+}
+h1{
+
+    color: rgb(255, 0, 51);
+}
+title{
+
+    color: rgb(82, 88, 77);
+}
