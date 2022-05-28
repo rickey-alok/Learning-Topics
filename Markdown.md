@@ -1,22 +1,22 @@
 # Cheat Sheet - MARKDOWN
 
----
 
 # Headings
 
-# H1 = `# H1`
+# `#H1`
 
-## H2 = `## H2`
+## `##H2`
 
-### H3 = `### H3`
+### `###H3`
 
-#### H4 = `#### H4`
+#### `####H4`
 
-##### H5 = `##### H5`
+##### `#####H5`
 
-```
-Heading IDs
-```
+###### `#####H6`
+
+##Custom Heading ID
+
 
 | Markdown                | HTML                                       | Rendered Output  |
 | ----------------------- | ------------------------------------------ | ---------------- |
@@ -27,8 +27,13 @@ Heading IDs
 `Normal`  = Normal
 
  `**Bold**`  = **Bold**
+ `__Bold__`  = __Bold__
 
 `*Italic*` = *Italic*
+`_Italic_` = _Italic_
+
+`***Bold & Italics***` = ***Bold & Italics***
+`___Bold & Italics___` = ___Bold & Italics___
 
 `Subscript example: H~2~O` = H~2~O
 
@@ -58,7 +63,7 @@ Heading IDs
 
 # List
 
-## ordered list:
+## Ordered list:
 
 ```
 1. First item
@@ -70,7 +75,7 @@ Heading IDs
 2. Second item
 3. Third item
 
-## unordered list:
+## Unordered list:
 
 ```
 - First item
@@ -82,7 +87,7 @@ Heading IDs
 - Second item
 - Third item
 
-## task List:
+## Task List:
 
 ```
 - [x] Write the press release

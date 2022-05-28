@@ -1,7 +1,7 @@
 # Learning-Topics
 
 1. Git
-2. [Markdown](https://github.com/rickey-alok/Learning-Topics/blob/master/test.md)
+2. [Markdown](Markdown.md)
 3. JSON
 4. MSON (markdown+JSON)
 5. CURL
