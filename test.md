@@ -1,14 +1,13 @@
 # Cheat Sheet - MARKDOWN
 ---
 
-```
-heading
-```
-# H1 = # H1
-## H2 = ## H2
-### H3 = ### H3
-#### H4 = #### H4
-##### H5 = ##### H5
+# Headings
+
+# H1 = `# H1`
+## H2 = `## H2`
+### H3 = `### H3`
+#### H4 = `#### H4`
+##### H5 = `##### H5`
 
 ```
 Heading IDs
@@ -18,10 +17,8 @@ Markdown|HTML|Rendered Output
 `[Heading IDs](#123)`|`<a href="#heading-ids">Heading IDs</a>`|[Heading IDs](#123)
 
 
----
-```
-Font
-````
+# Formatting
+
 `Normal`  = Normal
 
  `**Bold**`  = **Bold**
@@ -36,27 +33,27 @@ Font
 
 `~~Strikethrough~~` = ~~Strikethrough~~
 
----
-```
-Emojis
-```
+# Emojis
+
 `:joy:` = :joy:
+
 `:smile:` = :smile:
+
 `:cry:` = :cry:
+
 `:tent:` = :tent:
+
 `:heart:` = :heart:
+
 `:icecream:` = :icecream:
+
 `:school:` = :school:
+
 `:car:` = :car:
 
----
+# List
 
-
-
-```
-List
-```
-##### ordered list:
+## ordered list:
 ```
 1. First item
 2. Second item
@@ -67,7 +64,7 @@ List
 3. Third item
 
 
-##### unordered list:
+## unordered list:
 ```
 - First item
 - Second item
@@ -77,7 +74,7 @@ List
 - Second item
 - Third item
 
-##### task List:
+## task List:
 ```
 - [x] Write the press release
 - [ ] Update the website
@@ -92,7 +89,7 @@ List
  ---
 
 
-`Definition List`
+`Miscellaneous`
 
 ``` 
 term
