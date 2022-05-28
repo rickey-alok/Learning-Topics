@@ -101,7 +101,7 @@
 
 ---
 
-`Miscellaneous`
+Miscellaneous
 
 ```
 term
@@ -112,9 +112,15 @@ term
 : definition
 
 
+## Code 
+
 ```
-Code = `code`
+Inline Code: `code`
 ```
+
+Block Code: " ``` "
+
+
 
 ## Links
 
@@ -130,7 +136,7 @@ Internal Reference
 
 External reference
 
-`![water](https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F734973%2Fpexels-photo-734973.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-734973.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fwater%2F&tbnid=CFHWIJFhsrX8pM&vet=12ahUKEwj8kvb2yoL4AhVn_jgGHS-0A_4QMygAegUIARDcAQ..i&docid=TE4Qh6gXsVlEhM&w=6000&h=4000&q=water%20image&ved=2ahUKEwj8kvb2yoL4AhVn_jgGHS-0A_4QMygAegUIARDcAQ)` = ![water](https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F734973%2Fpexels-photo-734973.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-734973.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fwater%2F&tbnid=CFHWIJFhsrX8pM&vet=12ahUKEwj8kvb2yoL4AhVn_jgGHS-0A_4QMygAegUIARDcAQ..i&docid=TE4Qh6gXsVlEhM&w=6000&h=4000&q=water%20image&ved=2ahUKEwj8kvb2yoL4AhVn_jgGHS-0A_4QMygAegUIARDcAQ)
+`![water](https://images.app.goo.gl/BxuL1cvQWsrGgeNC6)` = ![water](https://images.app.goo.gl/BxuL1cvQWsrGgeNC6)
 
 Internal Reference
 
