@@ -1,5 +1,28 @@
 # Cheat Sheet - MARKDOWN
 
+<!-- TOC -->
+
+- [Cheat Sheet - MARKDOWN](#cheat-sheet---markdown)
+- [Headings](#headings)
+- [`#H1`](#h1)
+  - [`##H2`](#h2)
+    - [`###H3`](#h3)
+      - [`####H4`](#h4)
+        - [`#####H5`](#h5)
+          - [`#####H6`](#h6)
+- [Formatting](#formatting)
+- [Emojis](#emojis)
+- [List](#list)
+  - [Ordered list:](#ordered-list)
+  - [Unordered list:](#unordered-list)
+  - [Task List:](#task-list)
+  - [Code](#code)
+  - [Links](#links)
+  - [Images](#images)
+  - [Table](#table)
+    - [Alignment](#alignment)
+
+<!-- /TOC -->
 
 # Headings
 
@@ -118,8 +141,26 @@ term
 Inline Code: `code`
 ```
 
-Block Code: " ``` "
+Block Code: 
 
+JSON
+
+```JSON
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+Without Code block defined (ex: JSON)
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 
 
 ## Links
@@ -136,8 +177,22 @@ Internal Reference
 
 External reference
 
-`![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` = ![water][(https://images.app.goo.gl/BxuL1cvQWsrGgeNC6](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
+`![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` = ![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
+
+
 
 Internal Reference
 
 `![water](water.jpg)` = ![water](Images/water.jpg)
+
+## Table
+
+### Alignment
+
+You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the hyphens within the header row.
+
+
+
+| Syntax      | Description | Test Text     |
+| :---        |    :---:   |          ---: |
+| Text Left        Aligned                 | Text Center Aligned           | Text Right Aligned       |
