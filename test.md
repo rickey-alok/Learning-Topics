@@ -1,8 +1,5 @@
-## Overview
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
-
-## Basic Syntax
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+# Cheat Sheet - MARKDOWN
+---
 
 ```
 heading
@@ -14,42 +11,97 @@ heading
 ##### H5 = ##### H5
 
 ```
+Heading IDs
+```
+Markdown|HTML|Rendered Output
+---|---|---
+`[Heading IDs](#123)`|`<a href="#heading-ids">Heading IDs</a>`|[Heading IDs](#123)
+
+
+---
+```
 Font
 ````
+`Normal`  = Normal
+
  `**Bold**`  = **Bold**
 
 `*Italic*` = *Italic*
 
-`Subscript` = H~2~O
+`Subscript example: H~2~O` = H~2~O
 
-H~2~O
+`Superscript example: X^2^` = X^2^
 
-X^2^
+`==Highlight==` = ==Highlight==
 
-:joy:
+`~~Strikethrough~~` = ~~Strikethrough~~
 
-> Note
+---
+```
+Emojis
+```
+`:joy:` = :joy:
+`:smile:` = :smile:
+`:cry:` = :cry:
+`:tent:` = :tent:
+`:heart:` = :heart:
+`:icecream:` = :icecream:
+`:school:` = :school:
+`:car:` = :car:
+
+---
+
 
 
 ```
-Ordered List
-
+List
+```
+##### ordered list:
+```
 1. First item
 2. Second item
 3. Third item
 ```
+1. First item
+2. Second item
+3. Third item
 
+
+##### unordered list:
 ```
-Unordered List
-
 - First item
 - Second item
 - Third item
 ```
+- First item
+- Second item
+- Third item
+
+##### task List:
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+
+ ---
+
+
+`Definition List`
+
+``` 
+term
+: definition
+```
+term
+: definition
 
 ```
-Code
+Code = `code`
+````
 
-`code`
-```
-`code`
