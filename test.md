@@ -4,13 +4,52 @@ This Markdown cheat sheet provides a quick overview of all the Markdown syntax e
 ## Basic Syntax
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-| Element | Markdown Syntax |
-| ----------- | ----------- |
-| Heading | ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-``` |
-| Bold | `**bold text**` |
+```
+heading
+```
+# H1 = # H1
+## H2 = ## H2
+### H3 = ### H3
+#### H4 = #### H4
+##### H5 = ##### H5
+
+```
+Font
+````
+ `**Bold**`  = **Bold**
+
+`*Italic*` = *Italic*
+
+`Subscript` = H~2~O
+
+H~2~O
+
+X^2^
+
+:joy:
+
+> Note
+
+
+```
+Ordered List
+
+1. First item
+2. Second item
+3. Third item
+```
+
+```
+Unordered List
+
+- First item
+- Second item
+- Third item
+```
+
+```
+Code
+
+`code`
+```
+`code`
