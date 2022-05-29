@@ -235,7 +235,9 @@ Output
 
 Input
 
-`![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` 
+```
+![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
+``` 
 
 Output
 
@@ -246,7 +248,9 @@ Output
 ## Internal Reference
 
 Input
-`![water](water.jpg)` 
+```
+![water](water.jpg)
+``` 
 
 Output
 
