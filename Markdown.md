@@ -135,7 +135,7 @@ term
 : definition
 
 
-## Code 
+# Code 
 
 ```
 Inline Code: `code`
@@ -163,31 +163,31 @@ Without Code block defined (ex: JSON)
 ```
 
 
-## Links
+# Links
 
-External reference
+## External reference
 
 `[Google](https://www.google.com)` = [Google](https://www.google.com)
 
-Internal Reference
+## Internal Reference
 
 `[Linked to readme page](README.md)` = [Linked to readme page](README.md)
 
-## Images
+# Images
 
-External reference
+## External reference
 
 `![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` = ![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
 
 
 
-Internal Reference
+## Internal Reference
 
 `![water](water.jpg)` = ![water](Images/water.jpg)
 
-## Table
+# Table
 
-### Alignment
+## Alignment
 
 You can align text in the columns to the left, right, or center by adding a colon `:` to the left, right, or on both side of the hyphens within the header row.
 
