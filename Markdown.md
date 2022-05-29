@@ -2,9 +2,7 @@
 
 <!-- TOC -->
 Table Of Content
-- [Cheat Sheet - MARKDOWN](#cheat-sheet---markdown)
-- [Headings](#headings)
--
+
 - [Cheat Sheet - Markdown](#cheat-sheet---markdown)
 - [Headings](#headings)
 - [H1](#h1)
