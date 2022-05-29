@@ -7,12 +7,14 @@ Table Of Content
 -
 - [Cheat Sheet - Markdown](#cheat-sheet---markdown)
 - [Headings](#headings)
-- [`#H1`](#h1)
-  - [`##H2`](#h2)
-    - [`###H3`](#h3)
-      - [`####H4`](#h4)
-        - [`#####H5`](#h5)
-          - [`######H6`](#h6)
+- [H1](#h1)
+  - [H2](#h2)
+    - [H3](#h3)
+      - [H4](#h4)
+        - [H5](#h5)
+          - [H6](#h6)
+- [Header 1](#header-1)
+  - [Header 2](#header-2)
 - [Formatting](#formatting)
 - [Emojis](#emojis)
 - [List](#list)
@@ -41,24 +43,48 @@ Table Of Content
 
 # Headings
 
-# `#H1`
+Input
+```
+# H1
 
-## `##H2`
+## H2
 
-### `###H3`
+### H3
 
-#### `####H4`
+#### H4
 
-##### `#####H5`
+##### H5
 
-###### `######H6`
+###### H6
 
-##Custom Heading ID
+Header 1
+==========
 
+Header 2
+-----------
+```
 
-| Markdown                | HTML                                       | Rendered Output  |
-| ----------------------- | ------------------------------------------ | ---------------- |
-| `[Heading IDs](#123)` | `<a href="#heading-ids">Heading IDs</a>` | [Heading IDs](#123) |
+Output
+
+# H1
+
+## H2
+
+### H3
+
+#### H4
+
+##### H5
+
+###### H6
+
+Header 1
+==========
+
+Header 2
+-----------
+
+---
 
 # Formatting
 
@@ -105,38 +131,40 @@ Table Of Content
 
 Input
 ```
-1. First item
-2. Second item
-3. Third item
+1. Item 1
+2. Item 2
+    a. item 3a
+    b. item 3b
 ```
 Output
-1. First item
-2. Second item
-3. Third item
+1. Item 1
+2. Item 2
+    a. item 3a
+    b. item 3b
 
 ## Unordered list:
 Input
 ```
-- First item
-- Second item
-- Third item
+* Item 1
+* Item 2
+    * item 3a
+    * item 3b
 ```
 Output
-- First item
-- Second item
-- Third item
+* Item 1
+* Item 2
+    * item 3a
+    * item 3b
 
 ## Task List:
 Input
 ```
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+- [ ] Checkbox off
+- [x] Checkbox on
 ```
 Output
-- [X] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+- [ ] Checkbox off
+- [x] Checkbox on
 
 ---
 
@@ -280,11 +308,19 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 Input
 ```
-> blockquote
+> This is
+> a blockquote
+>
+> > Nested
+> > Blockquote
 ```
 
 Output
-> blockquote
+> This is
+> a blockquote
+>
+> > Nested
+> > Blockquote
 
 # Horizontal Rule
 
