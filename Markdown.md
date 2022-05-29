@@ -305,7 +305,7 @@ Output
 
 Input
 ```
-![water](water.jpg)
+![water](Images/water.jpg)
 ``` 
 
 Output
