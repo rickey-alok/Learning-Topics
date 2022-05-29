@@ -131,14 +131,18 @@ Input
 ```
 1. Item 1
 2. Item 2
-    a. item 3a
-    b. item 3b
+   1. Item 2.1
+      1. Item 2.1.a
+      2. Item 2.1.b
 ```
 Output
 1. Item 1
 2. Item 2
-    a. item 3a
-    b. item 3b
+   1. Item 2.1
+      1. Item 2.1.a
+      2. Item 2.1.b
+ 
+  
 
 ## Unordered list:
 Input
@@ -146,13 +150,17 @@ Input
 * Item 1
 * Item 2
     * item 3a
+      * third level
     * item 3b
+      * third level
 ```
 Output
 * Item 1
 * Item 2
     * item 3a
+      * third level
     * item 3b
+      * third level
 
 ## Task List:
 Input
@@ -251,6 +259,14 @@ Input
 Output
 
 [Google](https://www.google.com)
+
+Input
+
+`[Google](https://www.google.com "Google Home Page")` 
+
+Output
+
+[Google](https://www.google.com "Google Home Page")
 
 ## Internal Reference
 
