@@ -16,11 +16,15 @@
   - [Ordered list:](#ordered-list)
   - [Unordered list:](#unordered-list)
   - [Task List:](#task-list)
-  - [Code](#code)
-  - [Links](#links)
-  - [Images](#images)
-  - [Table](#table)
-    - [Alignment](#alignment)
+- [Code](#code)
+- [Links](#links)
+  - [External reference](#external-reference)
+  - [Internal Reference](#internal-reference)
+- [Images](#images)
+  - [External reference](#external-reference-1)
+  - [Internal Reference](#internal-reference-1)
+- [Table](#table)
+  - [Alignment](#alignment)
 
 <!-- /TOC -->
 
