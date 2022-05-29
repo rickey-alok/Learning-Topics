@@ -271,9 +271,9 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 
 
-| Syntax                    | Description |            Test Text     |
-| :-----------       |    :-------------:   |          ---------------: |
-| Text Left------Aligned| Text Center Aligned           | Text Right Aligned       |
+|Syntax|Description|Test Text|
+| :---|:---:|---:|
+| Text Left Aligned| Text Center Aligned|Text Right Aligned|
 
 
 # Blockquote

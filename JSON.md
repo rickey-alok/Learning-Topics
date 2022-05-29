@@ -2,11 +2,11 @@
 
 ## Introduction
 
-- JSON stands for JavaScript Object Notation
-- JSON is easy to read and write.
-- JSON is language agnostic data-interchange format
-- JSON filename extension is .json
-- JSON Internet Media type is application/json
+- stands for JavaScript Object Notation
+- easy to read and write.
+- language agnostic data-interchange format
+- filename extension is .json
+- Internet Media type is application/json
 
 ## Examples
 
@@ -27,5 +27,6 @@
 
 ## Types
 
----|---|
-Number|Double precision floating-point
+Type | Description 
+--- | --- 
+Number | Double precision floating-point
