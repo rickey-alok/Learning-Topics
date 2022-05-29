@@ -19,6 +19,8 @@
 - [Code](#code)
   - [Inline Code](#inline-code)
   - [Block Code](#block-code)
+    - [JSON](#json)
+    - [Without Code block defined (ex: JSON)](#without-code-block-defined-ex-json)
 - [Links](#links)
   - [External reference](#external-reference)
   - [Internal Reference](#internal-reference)
@@ -151,7 +153,7 @@ term
 
 ## Block Code
 
-###JSON
+### JSON
 
 ```JSON
 {
@@ -160,7 +162,7 @@ term
   "age": 25
 }
 ```
-###Without Code block defined (ex: JSON)
+### Without Code block defined (ex: JSON)
 
 ```
 {
