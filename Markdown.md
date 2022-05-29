@@ -5,7 +5,7 @@ Table Of Content
 - [Cheat Sheet - MARKDOWN](#cheat-sheet---markdown)
 - [Headings](#headings)
 -
-- [Cheat Sheet - MARKDOWN](#cheat-sheet---markdown)
+- [Cheat Sheet - Markdown](#cheat-sheet---markdown)
 - [Headings](#headings)
 - [`#H1`](#h1)
   - [`##H2`](#h2)
@@ -35,6 +35,7 @@ Table Of Content
 - [Blockquote](#blockquote)
 - [Horizontal Rule](#horizontal-rule)
 - [Footnote](#footnote)
+- [Markdown in HTML](#markdown-in-html)
 
 <!-- /TOC -->
 
@@ -289,7 +290,9 @@ Output
 
 Input
 ```
----
+Three or more
+
+--- (Hyphens) or *** (Asterisks) or ___ (Underscores)
 ```
 
 Output
@@ -311,3 +314,6 @@ Output
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
+
+# Markdown in HTML
+Does *not* work **very** well. Use HTML tags.
