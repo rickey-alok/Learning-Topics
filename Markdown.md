@@ -96,36 +96,37 @@
 
 ## Ordered list:
 
+Input
 ```
 1. First item
 2. Second item
 3. Third item
 ```
-
+Output
 1. First item
 2. Second item
 3. Third item
 
 ## Unordered list:
-
+Input
 ```
 - First item
 - Second item
 - Third item
 ```
-
+Output
 - First item
 - Second item
 - Third item
 
 ## Task List:
-
+Input
 ```
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 ```
-
+Output
 - [X] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
@@ -134,10 +135,12 @@
 
 Miscellaneous
 
+Input
 ```
 term
 : definition
 ```
+Output  
 
 term
 : definition
@@ -147,13 +150,21 @@ term
 
 ## Inline Code
 
+
+Input
 ```
 `code`
 ```
 
+Output
+
+`code`
+
 ## Block Code
 
 ### JSON
+
+Input
 ~~~
 ```JSON
 {
@@ -163,6 +174,8 @@ term
 }
 ```
 ~~~
+
+Output
 
 ```JSON
 {
@@ -172,6 +185,8 @@ term
 }
 ```
 ### Without Code block defined (ex: JSON)
+
+Input
 ~~~
 ```
 {
@@ -182,6 +197,7 @@ term
 ```
 ~~~
 
+Output
 ```
 {
   "firstName": "John",
@@ -195,23 +211,46 @@ term
 
 ## External reference
 
-`[Google](https://www.google.com)` = [Google](https://www.google.com)
+Input
+
+`[Google](https://www.google.com)` 
+
+Output
+
+[Google](https://www.google.com)
 
 ## Internal Reference
 
-`[Linked to readme page](README.md)` = [Linked to readme page](README.md)
+Input
+
+`[Linked to readme page](README.md)` 
+
+Output
+
+[Linked to readme page](README.md)
 
 # Images
 
 ## External reference
 
-`![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` = ![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
+Input
+
+`![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)` 
+
+Output
+
+![water](https://media.istockphoto.com/photos/underwater-bubbles-picture-id925440650?k=20&m=925440650&s=612x612&w=0&h=OYU-poM2bI0xYJvb8qRAQ5UCc3qvnYt91KNv4nCOjgY=)
 
 
 
 ## Internal Reference
 
-`![water](water.jpg)` = ![water](Images/water.jpg)
+Input
+`![water](water.jpg)` 
+
+Output
+
+ ![water](Images/water.jpg)
 
 # Table
 
