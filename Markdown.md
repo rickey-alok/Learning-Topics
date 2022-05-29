@@ -26,15 +26,6 @@ Table Of Content
     - [Without Code block defined (ex: JSON)](#without-code-block-defined-ex-json)
 - [Links](#links)
   - [External reference](#external-reference)
-  - [Internal Reference](#internal-reference)
-- [Images](#images)
-  - [External reference](#external-reference-1)
-  - [Internal Reference](#internal-reference-1)
-- [Table](#table)
-  - [Alignment](#alignment)
-- [Blockquote](#blockquote)
-- [Horizontal Rule](#horizontal-rule)
-- [Footnote](#footnote)
 - [Markdown in HTML](#markdown-in-html)
 
 <!-- /TOC -->
@@ -254,7 +245,9 @@ Output
 
 Input
 
-`[Google](https://www.google.com)` 
+```
+[Google](https://www.google.com)
+```` 
 
 Output
 
@@ -262,17 +255,31 @@ Output
 
 Input
 
-`[Google](https://www.google.com "Google Home Page")` 
+```
+[Google](https://www.google.com "Google Home Page")
+``` 
 
 Output
 
 [Google](https://www.google.com "Google Home Page")
 
+Input
+
+```
+<https://google.com>
+```
+
+Output
+
+<https://google.com>
+
 ## Internal Reference
 
 Input
 
-`[Linked to readme page](README.md)` 
+```
+[Linked to readme page](README.md)
+``` 
 
 Output
 
