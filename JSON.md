@@ -21,17 +21,25 @@
 
 ```JSON
 {
-  "name": "Jason", # name value is `string`
-  "age": 39, # age value is `number`
-  "height": 1.92, # height value is `number.fraction`
-  "gender": "M", # gender value is `string`
-  "salary": 70000, # salary value is `number`
-  "married": true, # married value is `BOOLEAN`
+  "name": "Jason", 
+  "age": 39, 
+  "height": 1.92, 
+  "gender": "M", 
+  "salary": 70000, 
+  "married": true, 
   "children": [
     {"name": "Tom", "age": 9, "gender":"M"},
     {"name": "Ava", "age": 7, "gender":"F"}
-  ] # children value is `array`
+  ] 
 }
+
+# name value is `string`
+# age value is `number`
+# height value is `number.fraction`
+# gender value is `string`
+# salary value is `number`
+# married value is `BOOLEAN`
+# children value is `array`
 ```
 
 ## Data Types
