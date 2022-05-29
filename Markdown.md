@@ -17,6 +17,8 @@
   - [Unordered list:](#unordered-list)
   - [Task List:](#task-list)
 - [Code](#code)
+  - [Inline Code](#inline-code)
+  - [Block Code](#block-code)
 - [Links](#links)
   - [External reference](#external-reference)
   - [Internal Reference](#internal-reference)
@@ -53,13 +55,13 @@
 
 `Normal`  = Normal
 
- `**Bold**`  = **Bold**
+ `**Bold**`  = **Bold**  
  `__Bold__`  = __Bold__
 
-`*Italic*` = *Italic*
+`*Italic*` = *Italic*  
 `_Italic_` = _Italic_
 
-`***Bold & Italics***` = ***Bold & Italics***
+`***Bold & Italics***` = ***Bold & Italics***  
 `___Bold & Italics___` = ___Bold & Italics___
 
 `Subscript example: H~2~O` = H~2~O
@@ -141,13 +143,15 @@ term
 
 # Code 
 
+## Inline Code
+
 ```
-Inline Code: `code`
+`code`
 ```
 
-Block Code: 
+## Block Code
 
-JSON
+###JSON
 
 ```JSON
 {
@@ -156,7 +160,7 @@ JSON
   "age": 25
 }
 ```
-Without Code block defined (ex: JSON)
+###Without Code block defined (ex: JSON)
 
 ```
 {
