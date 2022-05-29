@@ -1,7 +1,10 @@
-# Cheat Sheet - MARKDOWN
+# Cheat Sheet - Markdown
 
 <!-- TOC -->
-
+Table Of Content
+- [Cheat Sheet - MARKDOWN](#cheat-sheet---markdown)
+- [Headings](#headings)
+-
 - [Cheat Sheet - MARKDOWN](#cheat-sheet---markdown)
 - [Headings](#headings)
 - [`#H1`](#h1)
