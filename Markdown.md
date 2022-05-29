@@ -30,6 +30,8 @@
 - [Table](#table)
   - [Alignment](#alignment)
 - [Blockquote](#blockquote)
+- [Horizontal Rule](#horizontal-rule)
+- [Footnote](#footnote)
 
 <!-- /TOC -->
 
@@ -279,3 +281,30 @@ Input
 
 Output
 > blockquote
+
+# Horizontal Rule
+
+Input
+```
+---
+```
+
+Output
+
+---
+
+# Footnote
+
+Input
+
+```
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+```
+
+Output
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
