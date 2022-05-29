@@ -154,6 +154,15 @@ term
 ## Block Code
 
 ### JSON
+~~~
+```JSON
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+~~~
 
 ```JSON
 {
@@ -163,6 +172,15 @@ term
 }
 ```
 ### Without Code block defined (ex: JSON)
+~~~
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+~~~
 
 ```
 {
