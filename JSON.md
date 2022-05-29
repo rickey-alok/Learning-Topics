@@ -21,16 +21,16 @@
 
 ```JSON
 {
-  "name": "Jason",
-  "age": 39,
-  "height": 1.92,
-  "gender": "M",
-  "salary": 70000,
-  "married": true,
+  "name": "Jason", # this is `string`
+  "age": 39, # this is `number`
+  "height": 1.92, # this is `number.fraction`
+  "gender": "M", # this is `string`
+  "salary": 70000, # this is `number`
+  "married": true, # this is `BOOLEAN`
   "children": [
     {"name": "Tom", "age": 9, "gender":"M"},
     {"name": "Ava", "age": 7, "gender":"F"}
-  ]
+  ] # this is `array`
 }
 ```
 
