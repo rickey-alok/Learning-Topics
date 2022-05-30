@@ -48,3 +48,13 @@ Table Of Content
 
 # Physical Layer
 ![Physical Layer](Images/Physical%20Layer.jpg)
+
+Layer | Protocols | Adress used | Device Used
+---|---|---|---
+Application| HTTP+FTP+Telnet+SMTP+POP3+DNS+DHCP| Application specific| Gateway
+Presentation| SSL+TLS+MIME+(ASCII, MPEG, JPEG, PNG, MP3)| None| Gateway
+Session| PPTP + NetBIOS + RPC| None| Gateway
+Transport| TCP + UDP| Port Adress| Gateway
+Network| IP (IPV-4, IPV-6) + ICMP| Logical Adress| Router
+Data Link| Ethernet_VLAN_Token Ring + ATM + ARP + SLIP+PPP+PPTP+IEEE 802.11 (WI-FI) + IEEE 802.16 (WIMAX)| Physical Adress| Switch/Bridge
+Physical| Ethernet| None| Hub/Repeater+Cable
