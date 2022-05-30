@@ -166,3 +166,6 @@ Make an API call to a service
 curl --request PUT --header "PRIVATE-TOKEN: your_access_token_here" \
 --data "?per_page=10" "https://gitlab.com/api/v4/namespaces"
 ```
+Source [^1]
+
+[^1]: From <www.opensource.com>
