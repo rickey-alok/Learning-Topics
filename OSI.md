@@ -13,6 +13,7 @@ Table Of Content
 <!-- /TOC -->
 
 # Application Layer
+## HTTP (port 80)/ HTTPS (port 443)
 
 ![Appication layer](Images/Application%20Layer.jpg)
 
