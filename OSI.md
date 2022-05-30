@@ -17,34 +17,34 @@ Table Of Content
 ![Appication layer](images/Application%20Layer.png)
 
 # Presentation Layer
-![Appication layer](images/Presentation%20Layer.png)
+![Presentation Layer](images/Presentation%20Layer.png)
 
 
 # Session Layer
-![Appication layer](images/Session%20Layer%201.png)
+![Session Layer 1](images/Session%20Layer%201.png)
 
 
-![Appication layer](images/Session%20Layer%202.png)
+![Session Layer 2](images/Session%20Layer%202.png)
 
 
 # Transport Layer
-![Appication layer](images/Transport%20Layer%201.png)
+![Transport Layer 1](images/Transport%20Layer%201.png)
 
-![Appication layer](images/Transport%20Layer%202.png)
+![Transport Layer 2](images/Transport%20Layer%202.png)
 
-![Appication layer](images/Transport%20Layer%203.png)
+![Transport Layer 3](images/Transport%20Layer%203.png)
 
-![Appication layer](images/Transport%20Layer%204.png)
+![Transport Layer 4](images/Transport%20Layer%204.png)
 
-![Appication layer](images/Transport%20Layer%205.png)
+![Transport Layer 5](images/Transport%20Layer%205.png)
 
-![Appication layer](images/Transport%20Layer%206.png)
+![Transport Layer 6](images/Transport%20Layer%206.png)
 
 # Network Layer
-![Appication layer](images/Network%20Layer.png)
+![Network Layer](images/Network%20Layer.png)
 
 # Data Link Layer
-![Appication layer](images/Data%20Link%20Layer.png)
+![Data Link Layer](images/Data%20Link%20Layer.png)
 
 # Physical Layer
-![Appication layer](images/Physical%20Layer.png)
+![Physical Layer](images/Physical%20Layer.png)
