@@ -50,7 +50,7 @@ Table Of Content
 ![Physical Layer](Images/Physical%20Layer.jpg)
 
 Layer | Protocols | Adress used | Device Used
----|---|---|:---:
+---|---|:---:|:---:
 Application| HTTP+FTP+Telnet+SMTP+POP3+DNS+DHCP| Application specific| Gateway
 Presentation| SSL+TLS+MIME+(ASCII, MPEG, JPEG, PNG, MP3)| None| Gateway
 Session| PPTP + NetBIOS + RPC| None| Gateway
