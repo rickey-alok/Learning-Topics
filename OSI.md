@@ -10,6 +10,7 @@ Table Of Content
 - [Network Layer](#network-layer)
 - [Data Link Layer](#data-link-layer)
 - [Physical Layer](#physical-layer)
+- [Table](#table)
 
 <!-- /TOC -->
 
@@ -51,6 +52,8 @@ Table Of Content
 
 # Physical Layer
 ![Physical Layer](Images/Physical%20Layer.jpg)
+
+# Table
 
 Layer | Protocols | Adress used | Device Used
 ---|---|:---:|:---:
