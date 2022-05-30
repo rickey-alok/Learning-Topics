@@ -168,4 +168,4 @@ curl --request PUT --header "PRIVATE-TOKEN: your_access_token_here" \
 ```
 Source [^1]
 
-[^1]: From <www.opensource.com>
+[^1]: From [www.opensource.com](https://opensource.com/sites/default/files/gated-content/curl-cheat-sheet.pdf)
