@@ -1,14 +1,15 @@
 # OpenAPI Specification
 
 1. **openapi** `string` `required` - The openapi field SHOULD be used by tooling specifications and clients to interpret the OpenAPI document. This is not related to the API info.version string.
-```
+
+```JSON
 {
   "openapi": "3.0.0",  
 }
 ```
 
-3. **info** (6) `required` - Provides metadata about the API. The metadata MAY be used by tooling as required.
-    * title
+2. **info** (6) `required` - Provides metadata about the API. The metadata MAY be used by tooling as required.
+    * title `required`
     * description
     * termsOfService
     * contact
@@ -16,9 +17,9 @@
       * url
       * email
     * license
-      * name
+      * name `required`
       * url
-    * version
+    * version `required`
 
 ```JSON
 {
@@ -37,26 +38,80 @@
   "version": "1.0.1"
 }
 ```
- 3. **servers** (3) `opetional` - If the servers property is not provided, or is an empty array, the default value would be a Server Object with a url value of /.
-    * url
+ 3. **servers** (3) - If the servers property is not provided, or is an empty array, the default value would be a Server Object with a url value of /.
+    * url `required`
     * description
     * variables
       * enum
-      * default
+      * default `required`
       * description
+
+A single server would be described as:
+```JSON
+{
+  "url": "https://development.gigantic-server.com/v1",
+  "description": "Development server"
+}
+```
+multiple servers can be described
+```JSON
+{
+  "servers": [
+    {
+      "url": "https://development.gigantic-server.com/v1",
+      "description": "Development server"
+    },
+    {
+      "url": "https://staging.gigantic-server.com/v1",
+      "description": "Staging server"
+    },
+    {
+      "url": "https://api.gigantic-server.com/v1",
+      "description": "Production server"
+    }
+  ]
+}
+```
+variables can be used for a server configuration
+```JSON
+{
+  "servers": [
+    {
+      "url": "https://{username}.gigantic-server.com:{port}/{basePath}",
+      "description": "The production API server",
+      "variables": {
+        "username": {
+          "default": "demo",
+          "description": "this value is assigned by the service provider, in this example `gigantic-server.com`"
+        },
+        "port": {
+          "enum": [
+            "8443",
+            "443"
+          ],
+          "default": "8443"
+        },
+        "basePath": {
+          "default": "v2"
+        }
+      }
+    }
+  ]
+}
+```
 4. **paths** `reqired` - The available paths and operations for the API.
     * Path Item (13) - A relative path to an individual endpoint. The field name MUST begin with a forward slash (/)
       * $ref	
       * summary
       * description
-      * get
-      * put
-      * post
-      * delete
-      * options
-      * head
-      * patch
-      * trace
+      * get `Operation Object`
+      * put `Operation Object`
+      * post `Operation Object`
+      * delete `Operation Object`
+      * options `Operation Object`
+      * head `Operation Object`
+      * patch `Operation Object`
+      * trace `Operation Object`
       * servers
       * parameters (4) (There are four possible parameter locations specified by the `in` field:)
         * path 
