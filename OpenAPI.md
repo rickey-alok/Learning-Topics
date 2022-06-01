@@ -1,22 +1,22 @@
-# OpenAPI Object
+# OpenAPI Specification
 
 1. openapi
 2. info (6)
     * title
     * description
     * termsOfService
-    * contact (3)
+    * contact
       * name
       * url
       * email
-    * license (2)
+    * license
       * name
       * url
     * version
  3. servers (3)
     * url
     * description
-    * variables (3)
+    * variables
       * enum
       * default
       * description
@@ -41,6 +41,8 @@
         * cookie
 5. components (9)
     * schemas
+      * Type
+      * Format
     * responses
       * description
       * headers
@@ -54,7 +56,7 @@
       * required
     * headers
     * securitySchemes
-    * links (6)
+    * links
       * operationRef
       * operationId
       * parameters
@@ -63,11 +65,11 @@
       * server
     * callbacks
 6. security
-7. tags (3)
+7. tags
     * name
     * description
     * externalDocs
-8. externalDocs (2)
+8. externalDocs
     * description
     * url
 
