@@ -123,7 +123,7 @@ variables can be used for a server configuration
       * Type
       * Format
     * responses
-      * description
+      * description `required`
       * headers
       * content
       * links
