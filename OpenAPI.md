@@ -21,7 +21,7 @@
       * default
       * description
 4. paths
-    * Path Item (13)
+    * Path Item (13) - A relative path to an individual endpoint. The field name MUST begin with a forward slash (/)
       * $ref	
       * summary
       * description
