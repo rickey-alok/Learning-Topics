@@ -1,7 +1,13 @@
 # OpenAPI Specification
 
 1. **openapi** `string` `required` - The openapi field SHOULD be used by tooling specifications and clients to interpret the OpenAPI document. This is not related to the API info.version string.
-2. **info** (6) `required` - Provides metadata about the API. The metadata MAY be used by tooling as required.
+```
+{
+  "openapi": "3.0.0",  
+}
+```
+
+3. **info** (6) `required` - Provides metadata about the API. The metadata MAY be used by tooling as required.
     * title
     * description
     * termsOfService
@@ -13,6 +19,24 @@
       * name
       * url
     * version
+
+```JSON
+{
+  "title": "Sample Pet Store App",
+  "description": "This is a sample server for a pet store.",
+  "termsOfService": "http://example.com/terms/",
+  "contact": {
+    "name": "API Support",
+    "url": "http://www.example.com/support",
+    "email": "support@example.com"
+  },
+  "license": {
+    "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "version": "1.0.1"
+}
+```
  3. **servers** (3) `opetional` - If the servers property is not provided, or is an empty array, the default value would be a Server Object with a url value of /.
     * url
     * description
