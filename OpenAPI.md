@@ -2,11 +2,11 @@
 
 1. **openapi** `string` `required` - The openapi field SHOULD be used by tooling specifications and clients to interpret the OpenAPI document. This is not related to the API info.version string.
 
-```JSON
-{
-  "openapi": "3.0.0",  
-}
-```
+      ```JSON
+      {
+        "openapi": "3.0.0",  
+      }
+      ```
 
 2. **info** (6) `required` - Provides metadata about the API. The metadata MAY be used by tooling as required.
     * title `required`
@@ -21,23 +21,23 @@
       * url
     * version `required`
 
-```JSON
-{
-  "title": "Sample Pet Store App",
-  "description": "This is a sample server for a pet store.",
-  "termsOfService": "http://example.com/terms/",
-  "contact": {
-    "name": "API Support",
-    "url": "http://www.example.com/support",
-    "email": "support@example.com"
-  },
-  "license": {
-    "name": "Apache 2.0",
-    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
-  },
-  "version": "1.0.1"
-}
-```
+    ```JSON
+    {
+      "title": "Sample Pet Store App",
+      "description": "This is a sample server for a pet store.",
+      "termsOfService": "http://example.com/terms/",
+      "contact": {
+        "name": "API Support",
+        "url": "http://www.example.com/support",
+        "email": "support@example.com"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+      },
+      "version": "1.0.1"
+    }
+    ```
  3. **servers** (3) - If the servers property is not provided, or is an empty array, the default value would be a Server Object with a url value of /.
     * url `required`
     * description
@@ -126,14 +126,7 @@ variables can be used for a server configuration
     *The Responses Object MUST contain at least one response code, and it SHOULD be the response for a successful operation call.*
       * description `required`
       * headers
-      ```JSON
-      {
-      "description": "The number of allowed requests in the current period",
-      "schema": {
-       "type": "integer"
-           }
-        }
-        ```
+
       * content
       * links
       ```JSON
