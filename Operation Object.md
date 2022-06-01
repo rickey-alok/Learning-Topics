@@ -1,16 +1,16 @@
-Operation Object
-* tags `[string]`
-* summary `string`
-* description `string`
-* externalDocs `object`
-* operationId `string`
-* parameters `object`
-* requestBody `object`
-* responses `object` `required`
-* callbacks `object`
-* deprecated `boolean`
-* security `object`
-* servers `object`
+Operation Object sequence:
+1. tags `[string]`
+2. summary `string`
+3. description `string`
+4. externalDocs `object`
+5. operationId `string`
+6. parameters `object`
+7. requestBody `object`
+8. responses `object` `required`
+9. callbacks `object`
+10. deprecated `boolean`
+11. security `object`
+12. servers `object`
 
 Operation Object Example
 ```JSON
