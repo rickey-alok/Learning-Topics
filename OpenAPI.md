@@ -122,11 +122,35 @@ variables can be used for a server configuration
     * schemas
       * Type
       * Format
-    * responses
+    * responses  
+    *The Responses Object MUST contain at least one response code, and it SHOULD be the response for a successful operation call.*
       * description `required`
       * headers
+      ```JSON
+      {
+      "description": "The number of allowed requests in the current period",
+      "schema": {
+       "type": "integer"
+           }
+        }
+        ```
       * content
       * links
+      ```JSON
+      {
+        "200": {
+          "description": "a pet to be returned",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pet"
+              }
+            }
+          }
+        }
+       }
+      ```
+      
     * parameters
     * examples
     * requestBodies
