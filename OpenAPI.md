@@ -172,22 +172,26 @@
     * description
     * url
     ```JSON
-            {    "tags":[
-                              {"name": "pet"
-                               "description": "Everything about your Pets"}
+    
+  
+            {    "tags":
+                  [
+                              {"name": "pet",
+                               "description": "Everything about your Pets",
                                "externalDocs": {
-                                                "description": "Find out more"
-                                                "url": "http://swagger.io"
-                              }
-                              {"name": "store"
+                                                "description": "Find out more",
+                                                "url": "http://swagger.io"}
+                              },
+                              {"name": "store",
                                "description": "Access to Petstore orders"
-                               }
-                              {"name": "user"
-                               "description": "Operations about user"
+                               },
+                              {"name": "user",
+                               "description": "Operations about user",
                                 "externalDocs": {
                                               "description": "Find out more about our store"
                                               "url": "http://swagger.io"}
-                        ]
+                            }
+                  ]
              }
     ```
 
