@@ -46,15 +46,15 @@
       * default `required`
       * description
 
-            A single server would be described as:
-            ```JSON
-            {
-              "url": "https://development.gigantic-server.com/v1",
-              "description": "Development server"
-            }
-            ```
-            multiple servers can be described
-            ```JSON
+      A single server would be described as:
+      ```JSON
+      {
+        "url": "https://development.gigantic-server.com/v1",
+        "description": "Development server"
+      }
+      ```
+      multiple servers can be described
+      ```JSON
             {
               "servers": [
                 {
@@ -71,9 +71,10 @@
                 }
               ]
             }
-            ```
-            variables can be used for a server configuration
-            ```JSON
+      ```
+      variables can be used for a server configuration
+      
+      ```JSON
             {
               "servers": [
                 {
@@ -98,7 +99,7 @@
                 }
               ]
             }
-            ```
+      ```
 4. **paths** `reqired` - The available paths and operations for the API.
     * Path Item (13) - A relative path to an individual endpoint. The field name MUST begin with a forward slash (/)
       * $ref	
