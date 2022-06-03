@@ -167,8 +167,8 @@
 7. **tags** - A list of tags used by the specification with additional metadata.
     * name
     * description
-    * externalDocs
-      * description - - Additional external documentation.
+    * externalDocs - Additional external documentation.
+      * description
       * url
     ```JSON
     
