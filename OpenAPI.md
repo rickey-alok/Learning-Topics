@@ -7,6 +7,12 @@
         "openapi": "3.0.0",  
       }
       ```
+      
+      ```JSON
+      {
+        "swagger": "2.0",  
+      }
+      ```
 
 2. **info** (6) `required` - Provides metadata about the API. The metadata MAY be used by tooling as required.
     * title `required`
