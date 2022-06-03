@@ -46,59 +46,59 @@
       * default `required`
       * description
 
-A single server would be described as:
-```JSON
-{
-  "url": "https://development.gigantic-server.com/v1",
-  "description": "Development server"
-}
-```
-multiple servers can be described
-```JSON
-{
-  "servers": [
-    {
-      "url": "https://development.gigantic-server.com/v1",
-      "description": "Development server"
-    },
-    {
-      "url": "https://staging.gigantic-server.com/v1",
-      "description": "Staging server"
-    },
-    {
-      "url": "https://api.gigantic-server.com/v1",
-      "description": "Production server"
-    }
-  ]
-}
-```
-variables can be used for a server configuration
-```JSON
-{
-  "servers": [
-    {
-      "url": "https://{username}.gigantic-server.com:{port}/{basePath}",
-      "description": "The production API server",
-      "variables": {
-        "username": {
-          "default": "demo",
-          "description": "this value is assigned by the service provider, in this example `gigantic-server.com`"
-        },
-        "port": {
-          "enum": [
-            "8443",
-            "443"
-          ],
-          "default": "8443"
-        },
-        "basePath": {
-          "default": "v2"
-        }
-      }
-    }
-  ]
-}
-```
+            A single server would be described as:
+            ```JSON
+            {
+              "url": "https://development.gigantic-server.com/v1",
+              "description": "Development server"
+            }
+            ```
+            multiple servers can be described
+            ```JSON
+            {
+              "servers": [
+                {
+                  "url": "https://development.gigantic-server.com/v1",
+                  "description": "Development server"
+                },
+                {
+                  "url": "https://staging.gigantic-server.com/v1",
+                  "description": "Staging server"
+                },
+                {
+                  "url": "https://api.gigantic-server.com/v1",
+                  "description": "Production server"
+                }
+              ]
+            }
+            ```
+            variables can be used for a server configuration
+            ```JSON
+            {
+              "servers": [
+                {
+                  "url": "https://{username}.gigantic-server.com:{port}/{basePath}",
+                  "description": "The production API server",
+                  "variables": {
+                    "username": {
+                      "default": "demo",
+                      "description": "this value is assigned by the service provider, in this example `gigantic-server.com`"
+                    },
+                    "port": {
+                      "enum": [
+                        "8443",
+                        "443"
+                      ],
+                      "default": "8443"
+                    },
+                    "basePath": {
+                      "default": "v2"
+                    }
+                  }
+                }
+              ]
+            }
+            ```
 4. **paths** `reqired` - The available paths and operations for the API.
     * Path Item (13) - A relative path to an individual endpoint. The field name MUST begin with a forward slash (/)
       * $ref	
