@@ -168,9 +168,8 @@
     * name
     * description
     * externalDocs
-8. **externalDocs** - Additional external documentation.
-    * description
-    * url
+      * description - - Additional external documentation.
+      * url
     ```JSON
     
   
