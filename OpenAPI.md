@@ -201,4 +201,4 @@
     ```
 
 # Difference between 2.0 and 3.0
-![OpenAPI 3.0](#image/OpenAPI_Image)
+![OpenAPI 3.0](Images/OpenAPI_Image.jpg)
