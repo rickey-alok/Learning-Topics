@@ -125,6 +125,7 @@
         * query
         * header
         * cookie
+        
         ![Parameters](Images/Parameters.jpg)
 5. **components** (9) - An element to hold various schemas for the specification.
     * schemas
