@@ -166,6 +166,15 @@ Make an API call to a service
 curl --request PUT --header "PRIVATE-TOKEN: your_access_token_here" \
 --data "?per_page=10" "https://gitlab.com/api/v4/namespaces"
 ```
+
+# Notes
+If you’re using Windows, note the following formatting requirements when using curl:
+
+* Use double quotes in the Windows command line. (Windows doesn’t support single quotes.)
+* Don’t use backslashes (\) to separate lines. (This is for readability only and doesn’t affect the call on Macs.)
+* By adding -k in the curl command, you can bypass curl’s security certificate, which may or may not be necessary.
+
+
 Source [^1]
 
 [^1]: From [www.opensource.com](https://opensource.com/sites/default/files/gated-content/curl-cheat-sheet.pdf)
