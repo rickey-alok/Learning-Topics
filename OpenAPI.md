@@ -204,3 +204,6 @@
 
 # Difference between 2.0 and 3.0
 ![OpenAPI](Images/OpenAPI_Image.JPG)
+
+# Object Flows
+![Object Flows](Images/Endpoint_flow.JPG)
