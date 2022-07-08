@@ -206,4 +206,4 @@
 ![OpenAPI](Images/OpenAPI_Image.JPG)
 
 # Object Flows
-![Object Flows](Images/Endpoint_flow.JPG)
+![Object Flows](Images/Endpoint_flow.jpg)
