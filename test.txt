@@ -1,2 +1,3 @@
 http://swapi.dev/api/planets/1/
-
+Paragraph added to check the command - 
+`git pull origin develop`
