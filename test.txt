@@ -1,3 +1,4 @@
 http://swapi.dev/api/planets/1/
 Paragraph added to check the command - 
 `git pull origin develop`
+added some content from alok2 branch, in between commits are made on the develop branch.
